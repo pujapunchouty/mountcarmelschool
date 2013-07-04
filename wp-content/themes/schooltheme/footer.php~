@@ -1,0 +1,70 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * Contains footer content and the closing of the
+ * #main and #page div elements.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+?>
+	
+	<footer id="colophon" role="contentinfo">
+		<div id="footer_container">
+                    <div id="footer_wrapper">
+                    <div id="footer_content" class="logo">
+		<h1>
+		<a target="_blank" href="http://www.gdst.net/Pages/default.aspx">Girl's Day School Trust</a>
+		</h1>
+		</div><!-- #footer_content -->
+
+
+	<div id="footer_content" class="quicklinks">
+		<h2>Quicklinks</h2>
+		<ul>
+		<li>
+			<a target="_blank" href="http://www.gdst.net/">GDST</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.minerva.org.uk/">GDST Alumnae Network</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.gsa.uk.com/">GSA</a>
+		</li>
+		<li>
+			<a target="_blank" href="http://www.mydaughter.co.uk/">My Daughter</a>
+		</li>
+		<li>
+			<a href="/About_Us/legal.aspx">Legal</a>
+		</li>
+		<li>
+			<a target="_blank" href="/Mainfolder/Policies/NHEHS_Privacy_and_Cookies_Policy.pdf">Privacy & Cookie Policy</a>
+		</li>
+		</ul>	
+</div><!-- #footer_content -->
+
+
+<div id="footer_content" class="sharing_options">
+	<h2>Sharing Options</h2>
+	            
+       <?php 
+       juiz_sps();
+       ?>
+	</ul>
+</div><!-- #footer_content -->
+
+<div id="footer_content" class="contact_details">
+	<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('footer Widgets')) : ?>
+	<?php endif; ?>
+</div><!-- #footer_content -->
+
+                    </div><!-- #footer_wrapper --> 
+                </div><!-- #footer_container -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+</body>
+</html>

@@ -1,0 +1,85 @@
+EduPress Theme
+http://www.wpzoom.com/themes/edupress
+ 
+CHANGELOG
+---------
+       
+V 2.1.2 (25 January, 2013)
+	- Removed the transparency hover effect from images of Featured Posts on Homepage
+	- Files edited:
+		- style.css
+
+V 2.1 (13 December, 2012)
+	- Fixed some bugs related to WordPress 3.5
+	- Files edited:
+		- style.css
+		- featured-posts.php
+		- header.php
+	- Files removed:
+		- /js/loopedslider.min.js
+	- Files added:
+		- /js/slides.min.jquery.js
+
+V 2.0.3 (25 October, 2012)
+	- Fixed bug with homepage slider not autoplaying
+	- Files edited:
+		- featured-posts.php
+
+V 2.0.2 (26 September, 2012)
+	- TimThumb script has been removed completely
+	- Files edited:
+		- style.css
+		- /functions/theme/functions.php
+		- /functions/theme/post-options.php
+		- /functions/theme/widgets/featured-carousel.php
+
+V 2.0 (20 August, 2012)
+	- Theme has been ported to the new WPZOOM Framework
+	- All files have been edited
+	- Folders/files structure has been changed
+
+V 1.0.8 (14 December, 2011)
+	- An update for WP 3.3
+	- File edited: header.php
+
+V 1.0.7 (16th November, 2011)
+	- added custom.css
+	- edited files: 
+		- header.php
+
+V 1.0.6 (29th September , 2011)
+	- fixed a bug with double <h2></h2> wrapper around breadcrumbs
+	- edited files: 
+		- archive.php
+		- author.php
+		- single.php
+		- single-slideshow.php
+		- page.php
+		- search.php
+		- template-sidebar-right.php
+		- template-full-width.php
+
+V 1.0.5 (6th August, 2011)
+	- An important security fix: /scripts/timthumb.php has been updated to 2.0
+
+V 1.0.4 (15th July, 2011)
+	- fixed a bug which prevented the content on post pages and page pages from showing up
+	- edited files: 
+		- single.php
+		- single-slideshow.php
+		- page.php
+		- template-sidebar-right.php
+		- template-full-width.php
+
+V 1.0.3 (14th July, 2011)
+	- fixed some minor missed localizations in single.php
+	- edited files:
+		- single.php
+		- /languages/en_US.po
+
+V 1.0.2 (7th July, 2011)
+	- fixed the [highlight] ... [/highlight] shortcode styling
+	- edited file: style.css
+
+V 1.0 (16th June, 2011)
+	- initial release
